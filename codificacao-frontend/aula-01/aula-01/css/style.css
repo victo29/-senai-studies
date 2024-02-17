@@ -1,0 +1,19 @@
+
+h1{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+p{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+}
+
+.logo{
+    width: 50px;
+}

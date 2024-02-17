@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins";
+    }
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    background-color: rgb(255, 255, 255);
+    min-height: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+text-align: center;
+
+}
+
+strong{
+    color: red;
+    
+}
+
+p > strong{
+    font-size:x-large;
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
+}
+
+
+
+
+.abertura{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    min-height: 350px;
+    flex-wrap: wrap;
+    padding:4rem;
+
+}
+
+.abertura > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 300px;
+}
+
+.content {
+    flex: 1;
+}
+
+
+.box-img{
+    max-width:50%;
+    margin-left: 20px; 
+    min-height: 30%;
+   
+}
+
+.imagem-local{
+    width: 100%;
+    border-radius: 10%;
+    
+}
+
+.pontos-turisticos{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 350px;
+    flex-wrap: wrap;
+    background-color: rgb(231, 230, 230);
+}
+
+.h1-outras{
+    margin-top: 2rem;
+}
+
+
+
+.main-outras{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    min-height: 400px;
+    flex-wrap: wrap;
+    padding:4rem;
+    padding-bottom: 0rem;
+}
+
+
+.box-img-outras{
+    max-width:50%;
+    margin-left: 20px; 
+    min-height: 100%;
+}
+
+@media (max-width: 750px){
+    .box-img-outras{
+        max-width:100%;
+    }
+}
+
+.historia{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 350px;
+    flex-wrap: wrap;
+    background-color: white;
+
+}
+
+.gastronomia{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 350px;
+    flex-wrap: wrap;
+    background-color: rgb(231, 230, 230);
+
+}
