@@ -1,0 +1,24 @@
+#CorAzul {
+    color: blue;
+}
+
+h1{
+    color: purple;
+}
+h2,h3{
+    color: red;
+}
+
+div h1{
+    color: aqua;
+}
+
+.class-teste{
+    color: pink;
+}
+
+
+.corClaro .corAzul{
+    color: blue;
+}
+
