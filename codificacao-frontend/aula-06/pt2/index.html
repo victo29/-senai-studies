@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+
+    <style>
+
+        #container{
+            background-color: white;
+        }
+
+        body{
+            background-color: blue;
+        }
+
+        p{
+            width: 300px;
+        }
+
+        h1{
+            position: static;
+        }
+
+        .relative{
+            border: 3px solid red;
+            background-color: white;
+            position: relative;
+            left: 70px;
+        }
+
+        /* TOP, RIGHT, BOTTOM, LEFT */
+
+        .absolut{
+            text-align: center;
+            position: absolute;
+            display: inline;
+            right: 50px;
+        }
+
+        .fixed{
+            border: 3px solid red;        
+            background-color: gainsboro;
+            position:fixed;
+            bottom: 0;
+
+        }
+
+    </style>
+
+
+
+
+</head>
+<body>
+    <div id="container">
+
+        <h1>Posicionamento</h1>
+
+        <P class="relative">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, quisquam dicta mollitia voluptate ducimus ipsum non totam in dolorem nemo culpa nostrum expedita blanditiis consequuntur, voluptates saepe ullam enim modi.
+        </P>
+
+        <p class="absolut">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eius quidem dolores beatae aliquam veniam repudiandae asperiores possimus ipsa iusto eligendi, debitis totam sed unde? Alias molestias totam consectetur ipsam.
+        </p>
+
+        <p class="fixed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eius quidem dolores beatae aliquam veniam repudiandae asperiores possimus ipsa iusto eligendi, debitis totam sed unde? Alias molestias totam consectetur ipsam.
+        </p>
+
+    </div>
+
+</body>
+</html>
