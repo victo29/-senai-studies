@@ -5,6 +5,10 @@
     margin: 0px;
 }
 
+body{
+    width: 100%;
+}
+
 .container{
 
     background-color: rgb(197, 33, 33); 
@@ -54,6 +58,24 @@ body{
 span{
     color: white;
 }
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white
+}
+
+::-webkit-scrollbar-thumb {
+    background: red
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(197, 33, 33); 
+}  
+
 
 main{
     padding-top:40px;
@@ -146,12 +168,14 @@ main{
     background-image: linear-gradient(rgb(207, 17, 17), rgb(104, 16, 16)); 
     /* background-image: linear-gradient(rgb(172, 170, 170),rgb(85, 84, 84)); */
     position: absolute;
-    width: 250px;
+    width: 16.7%;
     height: 500px;
-   bottom:-34px;
+    top: 260px;
+   bottom: auto;
    margin-left: 83.3%;
    text-align: center;
     border-radius: 20px 0px 0px 20px;
+    
     
 }
 
@@ -200,9 +224,11 @@ main{
 
 .small-news{
     position: absolute;
-    margin-left: 80%;
+    margin-left: 79.9%;
+    width: auto;
     top: 1100px;
     bottom: auto;
+    
 
 }
 
@@ -246,3 +272,9 @@ main{
     }
     
 }
+
+
+body{
+    overflow-x: hidden;
+}
+
