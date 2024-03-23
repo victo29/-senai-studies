@@ -1,0 +1,31 @@
+body{
+    background-image: url('/img/as-linhas-de-contorno-topograficas-mapeiam-o-padrao-sem-emenda_1284-52862.avif');
+    background-repeat: repeat;
+    
+    background-attachment:fixed;
+    
+}
+
+.quadrado{
+    display: inline-block;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#q1{
+    background-color: skyblue;
+}
+
+#q2{
+    background-image: linear-gradient(to top,red, rgb(155, 4, 4));
+}
+
+#q3{
+    background-image: url('/img/as-linhas-de-contorno-topograficas-mapeiam-o-padrao-sem-emenda_1284-52862.avif');
+    background-size:400px ;
+}
+
